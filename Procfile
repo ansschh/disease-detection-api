@@ -1,2 +1,1 @@
-web:gunicorn app:setup
-heroku ps:scale web=1 --app
+web:gunicorn app:setup --preload
